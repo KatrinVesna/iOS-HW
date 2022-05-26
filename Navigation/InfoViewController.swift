@@ -30,7 +30,6 @@ class InfoViewController: UIViewController {
         let alert = UIAlertController(title: "Внесены изменения", message: "Сохранить?", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "Да", style: .default) {_ in
             print("Изменения сохранены")
-            // self.dismiss(animated: true)
             self.navigationController?.popViewController(animated: true)
         }
         let cancelAction = UIAlertAction(title: "Отмена", style: .destructive) { _ in
