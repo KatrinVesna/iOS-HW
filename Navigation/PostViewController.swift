@@ -9,17 +9,18 @@ import UIKit
 
 class PostViewController: UIViewController {
     
-    var postTitle: String = "Post"
+    var closure: (() -> Void)?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .white
         self.navigationItem.title = postTitle
-        view.backgroundColor = .white
         makeBarItem()
     }
     
+    var postTitle: String = "Post"
     private func makeBarItem() {
-        let rightBarItem = UIBarButtonItem(title: "Информация", style: .plain, target: self, action: #selector(buttonAction))
+        let rightBarItem = UIBarButtonItem(title: "Information", style: .plain, target: self, action: #selector(buttonAction))
         self.navigationItem.title = postTitle
         navigationItem.rightBarButtonItem = rightBarItem
     }
