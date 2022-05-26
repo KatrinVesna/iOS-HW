@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5B4D0031283F43F80049562E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D0030283F43F80049562E /* LogInViewController.swift */; };
+		5B4D0034283F4AA70049562E /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D0033283F4AA70049562E /* PostTableViewCell.swift */; };
+		5B4D0036283F4AC60049562E /* Setupable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D0035283F4AC60049562E /* Setupable.swift */; };
+		5B4D0038283F4ADD0049562E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D0037283F4ADD0049562E /* Post.swift */; };
 		5B885C4E283F211F00876754 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B885C4D283F211F00876754 /* MainTabBarController.swift */; };
 		5B885C50283F215A00876754 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B885C4F283F215A00876754 /* FeedViewController.swift */; };
 		5B885C52283F217B00876754 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B885C51283F217B00876754 /* PostViewController.swift */; };
@@ -22,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		5B4D0030283F43F80049562E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		5B4D0033283F4AA70049562E /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		5B4D0035283F4AC60049562E /* Setupable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setupable.swift; sourceTree = "<group>"; };
+		5B4D0037283F4ADD0049562E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		5B885C4D283F211F00876754 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		5B885C4F283F215A00876754 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		5B885C51283F217B00876754 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B4D0032283F492A0049562E /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				5B4D0037283F4ADD0049562E /* Post.swift */,
+				5B4D0033283F4AA70049562E /* PostTableViewCell.swift */,
+				5B4D0035283F4AC60049562E /* Setupable.swift */,
+				5B885C51283F217B00876754 /* PostViewController.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
 		5B8D7AA1283F2598009BEA99 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,12 +93,12 @@
 		5B8EAA26283F1E2600330202 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				5B4D0032283F492A0049562E /* Post */,
 				5B8D7AA1283F2598009BEA99 /* Profile */,
 				5B8EAA27283F1E2600330202 /* AppDelegate.swift */,
 				5B8EAA29283F1E2600330202 /* SceneDelegate.swift */,
 				5B885C4D283F211F00876754 /* MainTabBarController.swift */,
 				5B885C4F283F215A00876754 /* FeedViewController.swift */,
-				5B885C51283F217B00876754 /* PostViewController.swift */,
 				5B885C53283F219A00876754 /* InfoViewController.swift */,
 				5B8EAA30283F1E2A00330202 /* Assets.xcassets */,
 				5B8EAA32283F1E2A00330202 /* LaunchScreen.storyboard */,
@@ -163,11 +180,14 @@
 				5B885C52283F217B00876754 /* PostViewController.swift in Sources */,
 				5B8EAA28283F1E2600330202 /* AppDelegate.swift in Sources */,
 				5B4D0031283F43F80049562E /* LogInViewController.swift in Sources */,
+				5B4D0038283F4ADD0049562E /* Post.swift in Sources */,
 				5B885C54283F219A00876754 /* InfoViewController.swift in Sources */,
 				5B885C50283F215A00876754 /* FeedViewController.swift in Sources */,
 				5B885C4E283F211F00876754 /* MainTabBarController.swift in Sources */,
 				5B885C56283F21C500876754 /* ProfileViewController.swift in Sources */,
+				5B4D0034283F4AA70049562E /* PostTableViewCell.swift in Sources */,
 				5B8EAA2A283F1E2600330202 /* SceneDelegate.swift in Sources */,
+				5B4D0036283F4AC60049562E /* Setupable.swift in Sources */,
 				5B8D7AA3283F25CC009BEA99 /* ProfileHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -84,15 +84,16 @@ class LogInViewController: UIViewController {
          
          private var logInButton: UIButton = {
              let button = UIButton()
+             button.translatesAutoresizingMaskIntoConstraints = false
              button.setTitle("Log In", for: .normal)
              button.titleLabel?.textColor = .white
              button.setBackgroundImage(UIImage(named: "blue_pixel"), for: .normal)
              button.layer.cornerRadius = 10
              button.clipsToBounds = true
              button.addTarget(self, action: #selector(didTapLogInButton), for: .touchUpInside)
-             button.translatesAutoresizingMaskIntoConstraints = false
              return button
          }()
+    
          @objc func didTapLogInButton(){
              alphaForButton()
              let profileVC = ProfileViewController()
