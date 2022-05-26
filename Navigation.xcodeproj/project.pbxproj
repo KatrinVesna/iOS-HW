@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4D0031283F43F80049562E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D0030283F43F80049562E /* LogInViewController.swift */; };
 		5B885C4E283F211F00876754 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B885C4D283F211F00876754 /* MainTabBarController.swift */; };
 		5B885C50283F215A00876754 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B885C4F283F215A00876754 /* FeedViewController.swift */; };
 		5B885C52283F217B00876754 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B885C51283F217B00876754 /* PostViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B4D0030283F43F80049562E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		5B885C4D283F211F00876754 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		5B885C4F283F215A00876754 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		5B885C51283F217B00876754 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		5B8D7AA1283F2598009BEA99 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				5B4D0030283F43F80049562E /* LogInViewController.swift */,
 				5B8D7AA2283F25CC009BEA99 /* ProfileHeaderView.swift */,
 				5B885C55283F21C500876754 /* ProfileViewController.swift */,
 			);
@@ -159,6 +162,7 @@
 			files = (
 				5B885C52283F217B00876754 /* PostViewController.swift in Sources */,
 				5B8EAA28283F1E2600330202 /* AppDelegate.swift in Sources */,
+				5B4D0031283F43F80049562E /* LogInViewController.swift in Sources */,
 				5B885C54283F219A00876754 /* InfoViewController.swift in Sources */,
 				5B885C50283F215A00876754 /* FeedViewController.swift in Sources */,
 				5B885C4E283F211F00876754 /* MainTabBarController.swift in Sources */,

@@ -9,8 +9,6 @@ import UIKit
 
 class ProfileHeaderView: UIView {
 
-     private var statusText = String()
-
      override init(frame: CGRect) {
          super.init(frame: frame)
          setupView()
@@ -109,7 +107,10 @@ class ProfileHeaderView: UIView {
          setStatusButton.heightAnchor.constraint(equalToConstant: 50.0)
          ])
      }
-
+    override func layoutSubviews() {
+        super.layoutSubviews()
+    }
+    
     private func setupView() {
         addSubview(avatarImageView)
         addSubview(fullNameLabel)

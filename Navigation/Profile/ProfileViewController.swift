@@ -9,6 +9,8 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+    var closure: (() -> Void)?
+    
     private lazy var profileHeaderView: ProfileHeaderView = {
         let view = ProfileHeaderView()
         view.translatesAutoresizingMaskIntoConstraints = false

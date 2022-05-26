@@ -11,21 +11,21 @@ class FeedViewController: UIViewController {
     
     private var verticalStack: UIStackView = {
         var stack = UIStackView()
+        stack.translatesAutoresizingMaskIntoConstraints = false
         stack.axis = .vertical
         stack.spacing = 10
-        stack.translatesAutoresizingMaskIntoConstraints = false
         return stack
     }()
     
     private lazy var firstButton: UIButton = {
         let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("Show post", for: .normal)
         button.titleLabel?.textColor = .black
         button.backgroundColor = .systemBlue
         button.layer.cornerRadius = 12
         button.clipsToBounds = true
         button.addTarget(self, action: #selector(didTapPostButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
