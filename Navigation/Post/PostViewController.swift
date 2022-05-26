@@ -30,3 +30,4 @@ class PostViewController: UIViewController {
         navigationController?.pushViewController(infoView, animated: true)
     }
 }
+
